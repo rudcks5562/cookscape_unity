@@ -1,0 +1,68 @@
+pipeline {
+    agent any
+    environment{
+        TARGET_HOST = "ubuntu@52.79.110.20"
+        IMAGE_NAME = "server/develop"
+        CONTAINER_NAME ="server_develop"
+        LAST_VERSION = "1.0"
+        NEW_VERSION = "1.0"
+        PROJECT_PATH = "/home/ubuntu/server-dev"
+    }
+    stages {
+        stage('Clone') {
+            steps {
+                git branch: 'be_develop', credentialsId: 'cookscape' ,url: 'https://lab.ssafy.com/s08-metaverse-game-sub2/S08P22B109.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                dir("./Backend/Cookscape"){
+                    sh 'chmod +x gradlew'
+                    sh  './gradlew clean build'
+                }
+            }
+        }
+        stage('Test') {
+            steps {
+                 echo  '테스트 단계와 관련된 몇 가지 단계를 수행합니다.'
+            }
+        }
+        stage('Copy build file'){
+            steps{
+                dir("./Backend/Cookscape"){
+                    sshagent (credentials: ['cookscape_ssh']){
+                        sh 'scp -o StrictHostKeyChecking=no ./deploy/Dockerfile ${TARGET_HOST}:${PROJECT_PATH}'
+                        sh 'scp -o StrictHostKeyChecking=no ./build/libs/Cookscape.jar ${TARGET_HOST}:${PROJECT_PATH}'
+                    }
+                }
+            }
+        }
+        stage('Stop process'){
+            steps{
+                sshagent (credentials: ['cookscape_ssh']){
+                    script{
+                        try{
+                            sh'''
+                             ssh -o StrictHostKeyChecking=no ${TARGET_HOST} "docker rm -f ${CONTAINER_NAME}"
+                             ssh -o StrictHostKeyChecking=no ${TARGET_HOST} "docker rmi ${IMAGE_NAME}:${LAST_VERSION}"
+                             '''
+                        } catch (e){
+                            echo 'Remove Container Failed : ${CONTAINER_NAME}'
+                        }
+                    }
+
+                }
+            }
+        }
+        stage('Deploy'){
+            steps{
+                sshagent (credentials: ['cookscape_ssh']){
+                   sh'''
+                   ssh -o StrictHostKeyChecking=no ${TARGET_HOST} "docker build --tag ${IMAGE_NAME}:${NEW_VERSION} --build-arg ARG_PROFILE=dev ${PROJECT_PATH}"
+                   ssh -o StrictHostKeyChecking=no ${TARGET_HOST} "docker run -v server-file-test:/file --name ${CONTAINER_NAME} -p 8888:8888 -d ${IMAGE_NAME}:${NEW_VERSION}"
+                   '''
+                }
+            }
+        }
+    }
+}

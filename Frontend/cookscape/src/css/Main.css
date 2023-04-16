@@ -1,0 +1,128 @@
+body {
+  overflow-x: hidden;
+}
+
+.App-header {
+  background-color: rgb(27, 25, 30);
+  min-height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+
+  /* margin-bottom: 120px; */
+}
+
+.App-header > h1 {
+  cursor: pointer;
+}
+
+.App-header div {
+  display: inline-block;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.userImg {
+  width: 20px;
+  margin-bottom: -5px;
+  margin-right: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.joinUs {
+  font-family: "ONE-Mobile-POP";
+  display: flex;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.footer > hr {
+  width: 80%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logoImg {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.mainSection {
+  position: absolute;
+  z-index: 9999;
+}
+
+footer {
+  height: 100px;
+  background-color: #282c34;
+  color: white;
+  padding: 36px;
+}
+
+.privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00b464;
+  z-index: 2;
+}
+
+.footer {
+  font-family: "Pretendard-Regular";
+}
+.social {
+  margin-top: -13px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.instagram {
+  width: 27px;
+}
+
+.youtube {
+  margin-left: 15px;
+  width: 30px;
+}
+
+.discord {
+  margin-left: 15px;
+  width: 28px;
+}
+.production {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.production > p {
+  color: #ededed;
+  margin: auto 0;
+}
+
+@media (max-width: 500px) {
+  .logoImg {
+    width: 150px;
+    margin-left: 30px;
+  }
+  .userImg {
+    width: 20px;
+    margin-right: 30px;
+  }
+}

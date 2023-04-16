@@ -1,0 +1,57 @@
+server:
+  servlet:
+    context-path: /test
+  port: 8888
+
+logging:
+  level:
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+spring:
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    generate-ddl: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    defer-datasource-initialization: true
+    show-sql: true
+    open-in-view: false
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cookscape_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true
+    username: root
+    password: ssafy
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+      location: ./file/temp
+
+file:
+  app:
+    url: /file/app/**
+    windowPath: ../file/app/window/
+
+swagger:
+  enable: true
+
+
+jwt:
+  header: Authorization
+  secret: d1659096d8c5bd34c2e96fdb235c123afccf23450af0870d95813d820c0dd44661507fe41d5a12c5b796299d260f314d9a5bdca31050fc00a2a4b44c9d31f93c
+  validity-second:
+    access: 172800
+    refresh: 172800
