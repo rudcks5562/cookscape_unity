@@ -1,0 +1,26 @@
+server:
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+  address: 0.0.0.0
+
+  ssl:
+    key-store: classpath:SSL/keystore.p12
+    key-store-type: PKCS12
+    key-store-password: cookscapeb109
+
+  error:
+    include-exception: false      # Response 에 Exception 표시 여부 (true | false)
+    include-message: always       # Response 에 Exception Message 표시 여부 (never | always | on_param)
+    include-stacktrace: on_param  # Response 에 Stack Trace 표시 여부 (never | always | on_param)
+    whitelabel:
+      enabled: true               # 에러 발생 시 Spring 기본 에러 페이지 노출 여부 (true | false)
+
+  http2:
+    enabled: true
+
+spring:
+  profiles:
+    active: local

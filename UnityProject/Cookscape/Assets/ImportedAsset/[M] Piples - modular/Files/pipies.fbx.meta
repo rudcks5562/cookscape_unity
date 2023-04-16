@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 477d5058ddc8d12408f59ef25ea1f61c
+timeCreated: 1535665279
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cap_01
+    100002: Cap_02
+    100004: Cap_03
+    100006: Cap_04
+    100008: Cap_05
+    100010: Decor_01
+    100012: Decor_02
+    100014: Decor_03
+    100016: Decor_04
+    100018: Decor_05
+    100020: Decor_06
+    100022: Decor_07
+    100024: Decor_08
+    100026: Decor_09
+    100028: Decor_10
+    100030: Decor_11
+    100032: Decor_12
+    100034: Decor_13
+    100036: END_open
+    100038: END_squeezed
+    100040: Pipe_Long
+    100042: PIPE_longL
+    100044: PIPE_S
+    100046: PIPE_short
+    100048: PIPE_shortL
+    100050: PIPE_T_Long
+    100052: PIPE_T_longL
+    100054: PIPE_T_S
+    100056: PIPE_T_Short
+    100058: PIPE_T_shortL
+    100060: PIPE_T_Three
+    100062: PIPE_Three
+    100064: //RootNode
+    100066: SPC_End
+    100068: SPC_junction
+    400000: Cap_01
+    400002: Cap_02
+    400004: Cap_03
+    400006: Cap_04
+    400008: Cap_05
+    400010: Decor_01
+    400012: Decor_02
+    400014: Decor_03
+    400016: Decor_04
+    400018: Decor_05
+    400020: Decor_06
+    400022: Decor_07
+    400024: Decor_08
+    400026: Decor_09
+    400028: Decor_10
+    400030: Decor_11
+    400032: Decor_12
+    400034: Decor_13
+    400036: END_open
+    400038: END_squeezed
+    400040: Pipe_Long
+    400042: PIPE_longL
+    400044: PIPE_S
+    400046: PIPE_short
+    400048: PIPE_shortL
+    400050: PIPE_T_Long
+    400052: PIPE_T_longL
+    400054: PIPE_T_S
+    400056: PIPE_T_Short
+    400058: PIPE_T_shortL
+    400060: PIPE_T_Three
+    400062: PIPE_Three
+    400064: //RootNode
+    400066: SPC_End
+    400068: SPC_junction
+    2300000: Cap_01
+    2300002: Cap_02
+    2300004: Cap_03
+    2300006: Cap_04
+    2300008: Cap_05
+    2300010: Decor_01
+    2300012: Decor_02
+    2300014: Decor_03
+    2300016: Decor_04
+    2300018: Decor_05
+    2300020: Decor_06
+    2300022: Decor_07
+    2300024: Decor_08
+    2300026: Decor_09
+    2300028: Decor_10
+    2300030: Decor_11
+    2300032: Decor_12
+    2300034: Decor_13
+    2300036: END_open
+    2300038: END_squeezed
+    2300040: Pipe_Long
+    2300042: PIPE_longL
+    2300044: PIPE_S
+    2300046: PIPE_short
+    2300048: PIPE_shortL
+    2300050: PIPE_T_Long
+    2300052: PIPE_T_longL
+    2300054: PIPE_T_S
+    2300056: PIPE_T_Short
+    2300058: PIPE_T_shortL
+    2300060: PIPE_T_Three
+    2300062: PIPE_Three
+    2300064: SPC_End
+    2300066: SPC_junction
+    3300000: Cap_01
+    3300002: Cap_02
+    3300004: Cap_03
+    3300006: Cap_04
+    3300008: Cap_05
+    3300010: Decor_01
+    3300012: Decor_02
+    3300014: Decor_03
+    3300016: Decor_04
+    3300018: Decor_05
+    3300020: Decor_06
+    3300022: Decor_07
+    3300024: Decor_08
+    3300026: Decor_09
+    3300028: Decor_10
+    3300030: Decor_11
+    3300032: Decor_12
+    3300034: Decor_13
+    3300036: END_open
+    3300038: END_squeezed
+    3300040: Pipe_Long
+    3300042: PIPE_longL
+    3300044: PIPE_S
+    3300046: PIPE_short
+    3300048: PIPE_shortL
+    3300050: PIPE_T_Long
+    3300052: PIPE_T_longL
+    3300054: PIPE_T_S
+    3300056: PIPE_T_Short
+    3300058: PIPE_T_shortL
+    3300060: PIPE_T_Three
+    3300062: PIPE_Three
+    3300064: SPC_End
+    3300066: SPC_junction
+    4300000: Pipe_Long
+    4300002: Decor_02
+    4300004: Cap_01
+    4300006: Decor_03
+    4300008: Decor_04
+    4300010: Decor_05
+    4300012: Decor_06
+    4300014: END_squeezed
+    4300016: END_open
+    4300018: Cap_03
+    4300020: Cap_04
+    4300022: Cap_05
+    4300024: PIPE_T_Three
+    4300026: PIPE_T_Short
+    4300028: PIPE_T_Long
+    4300030: Decor_07
+    4300032: Decor_08
+    4300034: SPC_junction
+    4300036: SPC_End
+    4300038: Decor_09
+    4300040: PIPE_Three
+    4300042: Decor_10
+    4300044: Decor_11
+    4300046: Decor_01
+    4300048: Decor_12
+    4300050: PIPE_S
+    4300052: PIPE_shortL
+    4300054: PIPE_longL
+    4300056: PIPE_T_S
+    4300058: PIPE_T_shortL
+    4300060: PIPE_T_longL
+    4300062: Decor_13
+    4300064: PIPE_short
+    4300066: Cap_02
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0fae3100420b60e4f8f48f807816646b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 5778628dfb0f2ab42b438dc5d2ec687e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 489e2bd1935ddeb419b8ec1691d9f5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: ab7b6b7b64cee3047af440ee713aa7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 034db88c66e52d54a864e7c5c00d05b6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
