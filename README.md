@@ -4,22 +4,7 @@
 
 ![로고](./img/logo_cookscape.png)
 
-<!-- 필수 항목 -->
 
-#### 카테고리
-
-| Application                          | Domain                                | Language                         | Framework                            | Game Engine                  |
-| ------------------------------------ | ------------------------------------- | -------------------------------- | ------------------------------------ | ---------------------------- |
-| :black_square_button: Desktop Web    | :black_square_button: AI              | :white_check_mark: JavaScript    | :black_square_button: Vue.js         | :white_check_mark: Unity     |
-| :black_square_button: Mobile Web     | :black_square_button: Big Data        | :black_square_button: TypeScript | :white_check_mark: React             | :black_square_button: UnReal |
-| :black_square_button: Responsive Web | :black_square_button: Blockchain      | :white_check_mark: C/C++      | :black_square_button: Angular        | :black_square_button:        |
-| :black_square_button: Android App    | :black_square_button: IoT             | :white_check_mark: C#         | :white_check_mark: Node.js        | :black_square_button:        |
-| :black_square_button: iOS App        | :black_square_button: AR/VR/Metaverse | :black_square_button: Python     | :black_square_button: Flask/Django   | :black_square_button:        |
-| :white_check_mark: Desktop App       | :white_check_mark: Game               | :white_check_mark: Java          | :white_check_mark: Spring/Springboot | :black_square_button:        |
-|                                      |                                       | :black_square_button: Kotlin     |                                      | :black_square_button:        |
-
-<br>
-<!-- 필수 항목 -->
 ✏ <b>프로젝트명</b><br>
 
 - Cookscape(쿡스케이프)
@@ -57,7 +42,20 @@
 <br>
 
 👑 <b>주요 기술</b>
+<!-- 필수 항목 -->
 
+| Application                          | Domain                                | Language                         | Framework                            | Game Engine                  |
+| ------------------------------------ | ------------------------------------- | -------------------------------- | ------------------------------------ | ---------------------------- |
+| :black_square_button: Desktop Web    | :black_square_button: AI              | :white_check_mark: JavaScript    | :black_square_button: Vue.js         | :white_check_mark: Unity     |
+| :black_square_button: Mobile Web     | :black_square_button: Big Data        | :black_square_button: TypeScript | :white_check_mark: React             | :black_square_button: UnReal |
+| :black_square_button: Responsive Web | :black_square_button: Blockchain      | :white_check_mark: C/C++      | :black_square_button: Angular        | :black_square_button:        |
+| :black_square_button: Android App    | :black_square_button: IoT             | :white_check_mark: C#         | :white_check_mark: Node.js        | :black_square_button:        |
+| :black_square_button: iOS App        | :black_square_button: AR/VR/Metaverse | :black_square_button: Python     | :black_square_button: Flask/Django   | :black_square_button:        |
+| :white_check_mark: Desktop App       | :white_check_mark: Game               | :white_check_mark: Java          | :white_check_mark: Spring/Springboot | :black_square_button:        |
+|                                      |                                       | :black_square_button: Kotlin     |                                      | :black_square_button:        |
+
+<br>
+<!-- 필수 항목 -->
 - photon의 Remote Procedure Calls으로 메타버스 및 인게임에서 유저간 실시간 동기화 원활하게 제공
 
 - Occlusion Culling 및 카메라 렌더링 거리 조절로 최적화
